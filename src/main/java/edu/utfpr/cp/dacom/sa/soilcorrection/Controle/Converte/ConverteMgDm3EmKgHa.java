@@ -1,5 +1,6 @@
-package edu.utfpr.cp.dacom.sa.soilcorrection;
+package edu.utfpr.cp.dacom.sa.soilcorrection.Controle.Converte;
 
+import edu.utfpr.cp.dacom.sa.soilcorrection.Modelo.Converte.IConversao;
 import lombok.NonNull;
 
 public class ConverteMgDm3EmKgHa implements IConversao<Double, Double> {
