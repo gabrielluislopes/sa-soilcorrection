@@ -1,4 +1,4 @@
-package edu.utfpr.cp.dacom.sa.soilcorrection;
+package edu.utfpr.cp.dacom.sa.soilcorrection.Modelo.Nutriente;
 
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;

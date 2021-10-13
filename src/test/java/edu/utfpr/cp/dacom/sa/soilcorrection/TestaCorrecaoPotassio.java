@@ -1,5 +1,6 @@
 package edu.utfpr.cp.dacom.sa.soilcorrection;
 
+import edu.utfpr.cp.dacom.sa.soilcorrection.Controle.Fonte.FontePotassio;
 import edu.utfpr.cp.dacom.sa.soilcorrection.Controle.Converte.ConverteKgHaEmK2O;
 import edu.utfpr.cp.dacom.sa.soilcorrection.Controle.Converte.ConverteCMolcDm3EmMgDm3;
 import edu.utfpr.cp.dacom.sa.soilcorrection.Controle.Correcao.CorrecaoPotassio;

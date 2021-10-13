@@ -1,6 +1,6 @@
 package edu.utfpr.cp.dacom.sa.soilcorrection.Modelo.Correcao;
 
-import edu.utfpr.cp.dacom.sa.soilcorrection.IFonteNutriente;
+import edu.utfpr.cp.dacom.sa.soilcorrection.Modelo.Fonte.IFonteNutriente;
 
 public interface ICorrecaoNutrienteQuantidadeAplicar<T extends IFonteNutriente> {
     
