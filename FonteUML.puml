@@ -1,0 +1,29 @@
+@startuml
+annotation lombok.Getter
+annotation lombok.RequiredArgsConstructor
+class edu.utfpr.cp.dacom.sa.soilcorrection.Modelo.Nutriente.NomeNutrienteAdicional
+class edu.utfpr.cp.dacom.sa.soilcorrection.Modelo.Nutriente.NutrienteAdicional
+class java.util.Set
+enum edu.utfpr.cp.dacom.sa.soilcorrection.Controle.Fonte.FonteCalcioMagnesio
+enum edu.utfpr.cp.dacom.sa.soilcorrection.Controle.Fonte.FonteFosforo
+enum edu.utfpr.cp.dacom.sa.soilcorrection.Controle.Fonte.FontePotassio
+interface edu.utfpr.cp.dacom.sa.soilcorrection.Modelo.Fonte.IFonteNutriente
+edu.utfpr.cp.dacom.sa.soilcorrection.Controle.Fonte.FonteCalcioMagnesio ..> lombok.Getter
+edu.utfpr.cp.dacom.sa.soilcorrection.Controle.Fonte.FonteCalcioMagnesio ..> lombok.RequiredArgsConstructor
+edu.utfpr.cp.dacom.sa.soilcorrection.Controle.Fonte.FonteCalcioMagnesio ..> edu.utfpr.cp.dacom.sa.soilcorrection.Modelo.Nutriente.NomeNutrienteAdicional
+edu.utfpr.cp.dacom.sa.soilcorrection.Controle.Fonte.FonteCalcioMagnesio ..> edu.utfpr.cp.dacom.sa.soilcorrection.Modelo.Nutriente.NutrienteAdicional
+edu.utfpr.cp.dacom.sa.soilcorrection.Controle.Fonte.FonteCalcioMagnesio ..> java.util.Set
+edu.utfpr.cp.dacom.sa.soilcorrection.Controle.Fonte.FonteCalcioMagnesio --|> edu.utfpr.cp.dacom.sa.soilcorrection.Modelo.Fonte.IFonteNutriente
+edu.utfpr.cp.dacom.sa.soilcorrection.Controle.Fonte.FonteFosforo ..> lombok.Getter
+edu.utfpr.cp.dacom.sa.soilcorrection.Controle.Fonte.FonteFosforo ..> lombok.RequiredArgsConstructor
+edu.utfpr.cp.dacom.sa.soilcorrection.Controle.Fonte.FonteFosforo ..> edu.utfpr.cp.dacom.sa.soilcorrection.Modelo.Nutriente.NomeNutrienteAdicional
+edu.utfpr.cp.dacom.sa.soilcorrection.Controle.Fonte.FonteFosforo ..> edu.utfpr.cp.dacom.sa.soilcorrection.Modelo.Nutriente.NutrienteAdicional
+edu.utfpr.cp.dacom.sa.soilcorrection.Controle.Fonte.FonteFosforo ..> java.util.Set
+edu.utfpr.cp.dacom.sa.soilcorrection.Controle.Fonte.FonteFosforo --|> edu.utfpr.cp.dacom.sa.soilcorrection.Modelo.Fonte.IFonteNutriente
+edu.utfpr.cp.dacom.sa.soilcorrection.Controle.Fonte.FontePotassio ..> lombok.Getter
+edu.utfpr.cp.dacom.sa.soilcorrection.Controle.Fonte.FontePotassio ..> lombok.RequiredArgsConstructor
+edu.utfpr.cp.dacom.sa.soilcorrection.Controle.Fonte.FontePotassio ..> edu.utfpr.cp.dacom.sa.soilcorrection.Modelo.Nutriente.NomeNutrienteAdicional
+edu.utfpr.cp.dacom.sa.soilcorrection.Controle.Fonte.FontePotassio ..> edu.utfpr.cp.dacom.sa.soilcorrection.Modelo.Nutriente.NutrienteAdicional
+edu.utfpr.cp.dacom.sa.soilcorrection.Controle.Fonte.FontePotassio ..> java.util.Set
+edu.utfpr.cp.dacom.sa.soilcorrection.Controle.Fonte.FontePotassio --|> edu.utfpr.cp.dacom.sa.soilcorrection.Modelo.Fonte.IFonteNutriente
+@enduml

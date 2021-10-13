@@ -1,0 +1,21 @@
+@startuml
+annotation java.lang.Override
+annotation lombok.NonNull
+class edu.utfpr.cp.dacom.sa.soilcorrection.Controle.Converte.ConverteCMolcDm3EmMgDm3
+class edu.utfpr.cp.dacom.sa.soilcorrection.Controle.Converte.ConverteKgHaEmK2O
+class edu.utfpr.cp.dacom.sa.soilcorrection.Controle.Converte.ConverteKgHaEmP2O5
+class edu.utfpr.cp.dacom.sa.soilcorrection.Controle.Converte.ConverteMgDm3EmKgHa
+interface edu.utfpr.cp.dacom.sa.soilcorrection.Modelo.Converte.IConversao
+edu.utfpr.cp.dacom.sa.soilcorrection.Controle.Converte.ConverteCMolcDm3EmMgDm3 ..> java.lang.Override
+edu.utfpr.cp.dacom.sa.soilcorrection.Controle.Converte.ConverteCMolcDm3EmMgDm3 ..> lombok.NonNull
+edu.utfpr.cp.dacom.sa.soilcorrection.Controle.Converte.ConverteCMolcDm3EmMgDm3 --|> edu.utfpr.cp.dacom.sa.soilcorrection.Modelo.Converte.IConversao
+edu.utfpr.cp.dacom.sa.soilcorrection.Controle.Converte.ConverteKgHaEmK2O ..> java.lang.Override
+edu.utfpr.cp.dacom.sa.soilcorrection.Controle.Converte.ConverteKgHaEmK2O ..> lombok.NonNull
+edu.utfpr.cp.dacom.sa.soilcorrection.Controle.Converte.ConverteKgHaEmK2O --|> edu.utfpr.cp.dacom.sa.soilcorrection.Modelo.Converte.IConversao
+edu.utfpr.cp.dacom.sa.soilcorrection.Controle.Converte.ConverteKgHaEmP2O5 ..> java.lang.Override
+edu.utfpr.cp.dacom.sa.soilcorrection.Controle.Converte.ConverteKgHaEmP2O5 ..> lombok.NonNull
+edu.utfpr.cp.dacom.sa.soilcorrection.Controle.Converte.ConverteKgHaEmP2O5 --|> edu.utfpr.cp.dacom.sa.soilcorrection.Modelo.Converte.IConversao
+edu.utfpr.cp.dacom.sa.soilcorrection.Controle.Converte.ConverteMgDm3EmKgHa ..> java.lang.Override
+edu.utfpr.cp.dacom.sa.soilcorrection.Controle.Converte.ConverteMgDm3EmKgHa ..> lombok.NonNull
+edu.utfpr.cp.dacom.sa.soilcorrection.Controle.Converte.ConverteMgDm3EmKgHa --|> edu.utfpr.cp.dacom.sa.soilcorrection.Modelo.Converte.IConversao
+@enduml

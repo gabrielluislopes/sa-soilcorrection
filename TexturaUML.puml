@@ -1,0 +1,5 @@
+@startuml
+class edu.utfpr.cp.dacom.sa.soilcorrection.Modelo.Nutriente.NutrientesCTC
+enum edu.utfpr.cp.dacom.sa.soilcorrection.Modelo.Textura.TexturaSolo
+edu.utfpr.cp.dacom.sa.soilcorrection.Modelo.Textura.TexturaSolo ..> edu.utfpr.cp.dacom.sa.soilcorrection.Modelo.Nutriente.NutrientesCTC
+@enduml
