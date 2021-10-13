@@ -1,0 +1,26 @@
+@startuml
+class CorrecaoCalcioMagnesio
+class CorrecaoFosforo
+class CorrecaoPotassio
+class EquilibrioCorrecaoCTC
+class edu.utfpr.cp.dacom.sa.soilcorrection.Fontes.FonteCalcioMagnesio
+class edu.utfpr.cp.dacom.sa.soilcorrection.Fontes.FonteFosforo
+class edu.utfpr.cp.dacom.sa.soilcorrection.Fontes.FontePotassio
+class edu.utfpr.cp.dacom.sa.soilcorrection.Fontes.IFonteNutriente
+class edu.utfpr.cp.dacom.sa.soilcorrection.Nutrientes.NutrienteAdicional
+class java.util.Set
+interface ICorrecaoNutriente
+interface ICorrecaoNutrienteQuantidadeAplicar
+CorrecaoCalcioMagnesio ..> edu.utfpr.cp.dacom.sa.soilcorrection.Fontes.FonteCalcioMagnesio
+CorrecaoCalcioMagnesio --|> ICorrecaoNutriente
+CorrecaoFosforo ..> edu.utfpr.cp.dacom.sa.soilcorrection.Fontes.FonteFosforo
+CorrecaoFosforo --|> ICorrecaoNutriente
+CorrecaoFosforo --|> ICorrecaoNutrienteQuantidadeAplicar
+CorrecaoPotassio ..> edu.utfpr.cp.dacom.sa.soilcorrection.Fontes.FontePotassio
+CorrecaoPotassio --|> ICorrecaoNutriente
+CorrecaoPotassio --|> ICorrecaoNutrienteQuantidadeAplicar
+ICorrecaoNutriente ..> edu.utfpr.cp.dacom.sa.soilcorrection.Fontes.IFonteNutriente
+ICorrecaoNutriente ..> edu.utfpr.cp.dacom.sa.soilcorrection.Nutrientes.NutrienteAdicional
+ICorrecaoNutriente ..> java.util.Set
+ICorrecaoNutrienteQuantidadeAplicar ..> edu.utfpr.cp.dacom.sa.soilcorrection.Fontes.IFonteNutriente
+@enduml

@@ -1,0 +1,21 @@
+@startuml
+annotation java.lang.Override
+annotation lombok.NonNull
+class ConverteCMolcDm3EmMgDm3
+class ConverteKgHaEmK2O
+class ConverteKgHaEmP2O5
+class ConverteMgDm3EmKgHa
+interface IConversao
+ConverteCMolcDm3EmMgDm3 ..> java.lang.Override
+ConverteCMolcDm3EmMgDm3 ..> lombok.NonNull
+ConverteCMolcDm3EmMgDm3 --|> IConversao
+ConverteKgHaEmK2O ..> java.lang.Override
+ConverteKgHaEmK2O ..> lombok.NonNull
+ConverteKgHaEmK2O --|> IConversao
+ConverteKgHaEmP2O5 ..> java.lang.Override
+ConverteKgHaEmP2O5 ..> lombok.NonNull
+ConverteKgHaEmP2O5 --|> IConversao
+ConverteMgDm3EmKgHa ..> java.lang.Override
+ConverteMgDm3EmKgHa ..> lombok.NonNull
+ConverteMgDm3EmKgHa --|> IConversao
+@enduml

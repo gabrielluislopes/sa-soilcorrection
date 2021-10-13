@@ -1,0 +1,10 @@
+@startuml
+annotation lombok.Getter
+annotation lombok.RequiredArgsConstructor
+annotation lombok.Setter
+class edu.utfpr.cp.dacom.sa.soilcorrection.Nutrientes.NutrienteAdicional
+enum edu.utfpr.cp.dacom.sa.soilcorrection.Nutrientes.NomeNutrienteAdicional
+edu.utfpr.cp.dacom.sa.soilcorrection.Nutrientes.NutrienteAdicional ..> lombok.Getter
+edu.utfpr.cp.dacom.sa.soilcorrection.Nutrientes.NutrienteAdicional ..> lombok.RequiredArgsConstructor
+edu.utfpr.cp.dacom.sa.soilcorrection.Nutrientes.NutrienteAdicional ..> lombok.Setter
+@enduml

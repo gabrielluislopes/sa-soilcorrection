@@ -1,0 +1,31 @@
+@startuml
+annotation lombok.Getter
+annotation lombok.RequiredArgsConstructor
+class edu.utfpr.cp.dacom.sa.soilcorrection.Nutrientes.NomeNutrienteAdicional
+class edu.utfpr.cp.dacom.sa.soilcorrection.Nutrientes.NutrienteAdicional
+class java.util.Set
+enum edu.utfpr.cp.dacom.sa.soilcorrection.Fontes.FonteCalcioMagnesio
+enum edu.utfpr.cp.dacom.sa.soilcorrection.Fontes.FonteFosforo
+enum edu.utfpr.cp.dacom.sa.soilcorrection.Fontes.FontePotassio
+interface edu.utfpr.cp.dacom.sa.soilcorrection.Fontes.IFonteNutriente
+edu.utfpr.cp.dacom.sa.soilcorrection.Fontes.FonteCalcioMagnesio ..> lombok.Getter
+edu.utfpr.cp.dacom.sa.soilcorrection.Fontes.FonteCalcioMagnesio ..> lombok.RequiredArgsConstructor
+edu.utfpr.cp.dacom.sa.soilcorrection.Fontes.FonteCalcioMagnesio ..> edu.utfpr.cp.dacom.sa.soilcorrection.Nutrientes.NomeNutrienteAdicional
+edu.utfpr.cp.dacom.sa.soilcorrection.Fontes.FonteCalcioMagnesio ..> edu.utfpr.cp.dacom.sa.soilcorrection.Nutrientes.NutrienteAdicional
+edu.utfpr.cp.dacom.sa.soilcorrection.Fontes.FonteCalcioMagnesio ..> java.util.Set
+edu.utfpr.cp.dacom.sa.soilcorrection.Fontes.FonteCalcioMagnesio --|> edu.utfpr.cp.dacom.sa.soilcorrection.Fontes.IFonteNutriente
+edu.utfpr.cp.dacom.sa.soilcorrection.Fontes.FonteFosforo ..> lombok.Getter
+edu.utfpr.cp.dacom.sa.soilcorrection.Fontes.FonteFosforo ..> lombok.RequiredArgsConstructor
+edu.utfpr.cp.dacom.sa.soilcorrection.Fontes.FonteFosforo ..> edu.utfpr.cp.dacom.sa.soilcorrection.Nutrientes.NomeNutrienteAdicional
+edu.utfpr.cp.dacom.sa.soilcorrection.Fontes.FonteFosforo ..> edu.utfpr.cp.dacom.sa.soilcorrection.Nutrientes.NutrienteAdicional
+edu.utfpr.cp.dacom.sa.soilcorrection.Fontes.FonteFosforo ..> java.util.Set
+edu.utfpr.cp.dacom.sa.soilcorrection.Fontes.FonteFosforo --|> edu.utfpr.cp.dacom.sa.soilcorrection.Fontes.IFonteNutriente
+edu.utfpr.cp.dacom.sa.soilcorrection.Fontes.FontePotassio ..> lombok.Getter
+edu.utfpr.cp.dacom.sa.soilcorrection.Fontes.FontePotassio ..> lombok.RequiredArgsConstructor
+edu.utfpr.cp.dacom.sa.soilcorrection.Fontes.FontePotassio ..> edu.utfpr.cp.dacom.sa.soilcorrection.Nutrientes.NomeNutrienteAdicional
+edu.utfpr.cp.dacom.sa.soilcorrection.Fontes.FontePotassio ..> edu.utfpr.cp.dacom.sa.soilcorrection.Nutrientes.NutrienteAdicional
+edu.utfpr.cp.dacom.sa.soilcorrection.Fontes.FontePotassio ..> java.util.Set
+edu.utfpr.cp.dacom.sa.soilcorrection.Fontes.FontePotassio --|> edu.utfpr.cp.dacom.sa.soilcorrection.Fontes.IFonteNutriente
+edu.utfpr.cp.dacom.sa.soilcorrection.Fontes.IFonteNutriente ..> edu.utfpr.cp.dacom.sa.soilcorrection.Nutrientes.NutrienteAdicional
+edu.utfpr.cp.dacom.sa.soilcorrection.Fontes.IFonteNutriente ..> java.util.Set
+@enduml
