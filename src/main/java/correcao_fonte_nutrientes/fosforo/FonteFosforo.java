@@ -1,7 +1,8 @@
-package edu.utfpr.cp.dacom.sa.soilcorrection.Fontes;
+package a.fosforo;
 
-import edu.utfpr.cp.dacom.sa.soilcorrection.Nutrientes.NomeNutrienteAdicional;
-import edu.utfpr.cp.dacom.sa.soilcorrection.Nutrientes.NutrienteAdicional;
+import a.IFonteNutriente;
+import a.NomeNutrienteAdicional;
+import a.NutrienteAdicional;
 import java.util.Set;
 
 import lombok.Getter;

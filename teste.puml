@@ -1,0 +1,62 @@
+@startuml
+annotation java.lang.Override
+annotation lombok.Getter
+annotation lombok.NonNull
+annotation lombok.RequiredArgsConstructor
+annotation lombok.Setter
+class edu.utfpr.cp.dacom.sa.soilcorrection.ConverteCMolcDm3EmMgDm3
+class edu.utfpr.cp.dacom.sa.soilcorrection.ConverteKgHaEmK2O
+class edu.utfpr.cp.dacom.sa.soilcorrection.ConverteKgHaEmP2O5
+class edu.utfpr.cp.dacom.sa.soilcorrection.ConverteMgDm3EmKgHa
+class edu.utfpr.cp.dacom.sa.soilcorrection.CorrecaoCalcioMagnesio
+class edu.utfpr.cp.dacom.sa.soilcorrection.CorrecaoFosforo
+class edu.utfpr.cp.dacom.sa.soilcorrection.CorrecaoPotassio
+class edu.utfpr.cp.dacom.sa.soilcorrection.EquilibrioCorrecaoCTC
+class edu.utfpr.cp.dacom.sa.soilcorrection.NutrienteAdicional
+class edu.utfpr.cp.dacom.sa.soilcorrection.NutrientesCTC
+class java.util.Set
+enum edu.utfpr.cp.dacom.sa.soilcorrection.FonteCalcioMagnesio
+enum edu.utfpr.cp.dacom.sa.soilcorrection.FonteFosforo
+enum edu.utfpr.cp.dacom.sa.soilcorrection.FontePotassio
+enum edu.utfpr.cp.dacom.sa.soilcorrection.NomeNutrienteAdicional
+enum edu.utfpr.cp.dacom.sa.soilcorrection.TexturaSolo
+interface edu.utfpr.cp.dacom.sa.soilcorrection.IConversao
+interface edu.utfpr.cp.dacom.sa.soilcorrection.ICorrecaoNutriente
+interface edu.utfpr.cp.dacom.sa.soilcorrection.ICorrecaoNutrienteQuantidadeAplicar
+interface edu.utfpr.cp.dacom.sa.soilcorrection.IFonteNutriente
+edu.utfpr.cp.dacom.sa.soilcorrection.ConverteCMolcDm3EmMgDm3 ..> java.lang.Override
+edu.utfpr.cp.dacom.sa.soilcorrection.ConverteCMolcDm3EmMgDm3 ..> lombok.NonNull
+edu.utfpr.cp.dacom.sa.soilcorrection.ConverteCMolcDm3EmMgDm3 --|> edu.utfpr.cp.dacom.sa.soilcorrection.IConversao
+edu.utfpr.cp.dacom.sa.soilcorrection.ConverteKgHaEmK2O ..> java.lang.Override
+edu.utfpr.cp.dacom.sa.soilcorrection.ConverteKgHaEmK2O ..> lombok.NonNull
+edu.utfpr.cp.dacom.sa.soilcorrection.ConverteKgHaEmK2O --|> edu.utfpr.cp.dacom.sa.soilcorrection.IConversao
+edu.utfpr.cp.dacom.sa.soilcorrection.ConverteKgHaEmP2O5 ..> java.lang.Override
+edu.utfpr.cp.dacom.sa.soilcorrection.ConverteKgHaEmP2O5 ..> lombok.NonNull
+edu.utfpr.cp.dacom.sa.soilcorrection.ConverteKgHaEmP2O5 --|> edu.utfpr.cp.dacom.sa.soilcorrection.IConversao
+edu.utfpr.cp.dacom.sa.soilcorrection.ConverteMgDm3EmKgHa ..> java.lang.Override
+edu.utfpr.cp.dacom.sa.soilcorrection.ConverteMgDm3EmKgHa ..> lombok.NonNull
+edu.utfpr.cp.dacom.sa.soilcorrection.ConverteMgDm3EmKgHa --|> edu.utfpr.cp.dacom.sa.soilcorrection.IConversao
+edu.utfpr.cp.dacom.sa.soilcorrection.CorrecaoCalcioMagnesio --|> edu.utfpr.cp.dacom.sa.soilcorrection.ICorrecaoNutriente
+edu.utfpr.cp.dacom.sa.soilcorrection.CorrecaoFosforo --|> edu.utfpr.cp.dacom.sa.soilcorrection.ICorrecaoNutriente
+edu.utfpr.cp.dacom.sa.soilcorrection.CorrecaoFosforo --|> edu.utfpr.cp.dacom.sa.soilcorrection.ICorrecaoNutrienteQuantidadeAplicar
+edu.utfpr.cp.dacom.sa.soilcorrection.CorrecaoPotassio --|> edu.utfpr.cp.dacom.sa.soilcorrection.ICorrecaoNutriente
+edu.utfpr.cp.dacom.sa.soilcorrection.CorrecaoPotassio --|> edu.utfpr.cp.dacom.sa.soilcorrection.ICorrecaoNutrienteQuantidadeAplicar
+edu.utfpr.cp.dacom.sa.soilcorrection.NutrienteAdicional ..> lombok.Getter
+edu.utfpr.cp.dacom.sa.soilcorrection.NutrienteAdicional ..> lombok.RequiredArgsConstructor
+edu.utfpr.cp.dacom.sa.soilcorrection.NutrienteAdicional ..> lombok.Setter
+edu.utfpr.cp.dacom.sa.soilcorrection.FonteCalcioMagnesio ..> lombok.Getter
+edu.utfpr.cp.dacom.sa.soilcorrection.FonteCalcioMagnesio ..> lombok.RequiredArgsConstructor
+edu.utfpr.cp.dacom.sa.soilcorrection.FonteCalcioMagnesio ..> java.util.Set
+edu.utfpr.cp.dacom.sa.soilcorrection.FonteCalcioMagnesio --|> edu.utfpr.cp.dacom.sa.soilcorrection.IFonteNutriente
+edu.utfpr.cp.dacom.sa.soilcorrection.FonteFosforo ..> lombok.Getter
+edu.utfpr.cp.dacom.sa.soilcorrection.FonteFosforo ..> lombok.RequiredArgsConstructor
+edu.utfpr.cp.dacom.sa.soilcorrection.FonteFosforo ..> java.util.Set
+edu.utfpr.cp.dacom.sa.soilcorrection.FonteFosforo --|> edu.utfpr.cp.dacom.sa.soilcorrection.IFonteNutriente
+edu.utfpr.cp.dacom.sa.soilcorrection.FontePotassio ..> lombok.Getter
+edu.utfpr.cp.dacom.sa.soilcorrection.FontePotassio ..> lombok.RequiredArgsConstructor
+edu.utfpr.cp.dacom.sa.soilcorrection.FontePotassio ..> java.util.Set
+edu.utfpr.cp.dacom.sa.soilcorrection.FontePotassio --|> edu.utfpr.cp.dacom.sa.soilcorrection.IFonteNutriente
+edu.utfpr.cp.dacom.sa.soilcorrection.TexturaSolo ..> edu.utfpr.cp.dacom.sa.soilcorrection.NutrientesCTC
+edu.utfpr.cp.dacom.sa.soilcorrection.ICorrecaoNutriente ..> java.util.Set
+edu.utfpr.cp.dacom.sa.soilcorrection.IFonteNutriente ..> java.util.Set
+@enduml

@@ -1,4 +1,4 @@
-package edu.utfpr.cp.dacom.sa.soilcorrection.Conversão;
+package converte;
 
 public interface IConversao<T, R> {
 

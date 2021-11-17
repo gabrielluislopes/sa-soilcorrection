@@ -1,7 +1,5 @@
-package edu.utfpr.cp.dacom.sa.soilcorrection.Nutrientes;
+package b;
 
-import lombok.AccessLevel;
-import lombok.AllArgsConstructor;
 import lombok.Builder;
 
 @Builder
