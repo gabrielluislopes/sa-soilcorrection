@@ -1,7 +1,7 @@
-package a.potassio;
+package correcao_fonte_nutrientes.potassio;
 
-import a.ICorrecaoNutriente;
-import a.ICorrecaoNutrienteQuantidadeAplicar;
+import correcao_fonte_nutrientes.ICorrecaoNutriente;
+import correcao_fonte_nutrientes.ICorrecaoNutrienteQuantidadeAplicar;
 
 public class CorrecaoPotassio 
         implements 

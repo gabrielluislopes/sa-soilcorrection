@@ -1,8 +1,8 @@
-package a.calcio_magnesio;
+package correcao_fonte_nutrientes.calcio_magnesio;
 
-import a.IFonteNutriente;
-import a.NomeNutrienteAdicional;
-import a.NutrienteAdicional;
+import correcao_fonte_nutrientes.IFonteNutriente;
+import correcao_fonte_nutrientes.NomeNutrienteAdicional;
+import correcao_fonte_nutrientes.NutrienteAdicional;
 import java.util.Set;
 
 import lombok.Getter;

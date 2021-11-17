@@ -1,7 +1,7 @@
 package edu.utfpr.cp.dacom.sa.soilcorrection;
 
-import a.calcio_magnesio.CorrecaoCalcioMagnesio;
-import a.calcio_magnesio.FonteCalcioMagnesio;
+import correcao_fonte_nutrientes.calcio_magnesio.CorrecaoCalcioMagnesio;
+import correcao_fonte_nutrientes.calcio_magnesio.FonteCalcioMagnesio;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 import org.junit.jupiter.api.Test;

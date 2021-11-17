@@ -1,4 +1,4 @@
-package a;
+package correcao_fonte_nutrientes;
 
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;

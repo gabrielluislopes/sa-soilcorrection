@@ -2,8 +2,8 @@ package edu.utfpr.cp.dacom.sa.soilcorrection;
 
 import converte.ConverteMgDm3EmKgHa;
 import converte.ConverteKgHaEmP2O5;
-import a.fosforo.CorrecaoFosforo;
-import a.fosforo.FonteFosforo;
+import correcao_fonte_nutrientes.fosforo.CorrecaoFosforo;
+import correcao_fonte_nutrientes.fosforo.FonteFosforo;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;

@@ -1,8 +1,8 @@
-package a.fosforo;
+package correcao_fonte_nutrientes.fosforo;
 
-import a.IFonteNutriente;
-import a.NomeNutrienteAdicional;
-import a.NutrienteAdicional;
+import correcao_fonte_nutrientes.IFonteNutriente;
+import correcao_fonte_nutrientes.NomeNutrienteAdicional;
+import correcao_fonte_nutrientes.NutrienteAdicional;
 import java.util.Set;
 
 import lombok.Getter;

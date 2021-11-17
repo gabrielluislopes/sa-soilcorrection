@@ -1,6 +1,6 @@
-package a.calcio_magnesio;
+package correcao_fonte_nutrientes.calcio_magnesio;
 
-import a.ICorrecaoNutriente;
+import correcao_fonte_nutrientes.ICorrecaoNutriente;
 
 public class CorrecaoCalcioMagnesio 
         implements ICorrecaoNutriente<FonteCalcioMagnesio> {

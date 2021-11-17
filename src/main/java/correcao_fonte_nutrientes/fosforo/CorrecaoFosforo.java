@@ -1,7 +1,7 @@
-package a.fosforo;
+package correcao_fonte_nutrientes.fosforo;
 
-import a.ICorrecaoNutriente;
-import a.ICorrecaoNutrienteQuantidadeAplicar;
+import correcao_fonte_nutrientes.ICorrecaoNutriente;
+import correcao_fonte_nutrientes.ICorrecaoNutrienteQuantidadeAplicar;
 
 public class CorrecaoFosforo 
     implements 
